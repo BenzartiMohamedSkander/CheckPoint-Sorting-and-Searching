@@ -8,7 +8,7 @@ BEGIN
     tab:=[8,58,6,11,36,2,1];
     len := tab.length;
 
-FOR i FROM 0 TO len-1 STEP 1  DO
+FOR i FROM 1 TO len-1 STEP 1  DO
     tmp:= tab[i]
     j:=i-1;
         WHILE (j >= 0 && tab[j] > tmp)  DO
